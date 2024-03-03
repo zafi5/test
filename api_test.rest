@@ -1,0 +1,23 @@
+GET http://localhost:3000/ 
+
+
+###
+GET http://localhost:3000/book 
+
+###
+POST http://localhost:3000/register
+content-type: application/json
+
+{
+    "id": "customer5",
+    "name": "Charles",
+    "fathername": "Cameron",
+    "mothername": "Felicity",
+    "gender": "Male",
+    "nid": "9000900011",
+    "dob": "17-9-1990",
+    "presentaddress": "Nagano",
+    "permanentaddress": "Osaka ",
+    "mobile": "0177728991"
+
+}
